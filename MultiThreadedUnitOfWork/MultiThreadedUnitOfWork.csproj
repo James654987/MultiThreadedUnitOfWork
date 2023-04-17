@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{05322FEF-3AFD-4406-A2AD-A28D77A32E7F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AsynchronousSessionManagement</RootNamespace>
+    <RootNamespace>MultiThreadedUnitOfWork</RootNamespace>
     <AssemblyName>MultiThreadedUnitOfWork</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

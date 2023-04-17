@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace AsynchronousSessionManagement.UnitOfWorkAndRepositories
+namespace MultiThreadedUnitOfWork.UnitOfWorkAndRepositories
 {
     [Serializable]
     public class UnitOfWorkException : Exception

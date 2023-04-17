@@ -1,11 +1,11 @@
-﻿using AsynchronousSessionManagement.IoC;
-using AsynchronousSessionManagement.NHibernateConfiguration;
-using AsynchronousSessionManagement.UnitOfWorkAndRepositories;
-using Castle.MicroKernel.Registration;
+﻿using Castle.MicroKernel.Registration;
 using Castle.Windsor;
+using MultiThreadedUnitOfWork.IoC;
+using MultiThreadedUnitOfWork.NHibernateConfiguration;
+using MultiThreadedUnitOfWork.UnitOfWorkAndRepositories;
 using NHibernate;
 
-namespace AsynchronousSessionManagement
+namespace MultiThreadedUnitOfWork
 {
     internal static class Program
     {

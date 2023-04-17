@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace AsynchronousSessionManagement.RequestsAndHandlers.Multi_Threaded
+namespace MultiThreadedUnitOfWork.RequestsAndHandlers.Multi_Threaded
 {
     public class GetUserNameByIdRequestMultiThreaded : IRequest<GetUserNameByIdResponseMultiThreaded>
     {

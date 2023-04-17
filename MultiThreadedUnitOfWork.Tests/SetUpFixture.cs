@@ -1,12 +1,12 @@
-﻿using AsynchronousSessionManagement.IoC;
-using AsynchronousSessionManagement.NHibernateConfiguration;
-using AsynchronousSessionManagement.RequestStates;
-using AsynchronousSessionManagement.UnitOfWorkAndRepositories;
-using Castle.MicroKernel.Registration;
+﻿using Castle.MicroKernel.Registration;
+using MultiThreadedUnitOfWork.IoC;
+using MultiThreadedUnitOfWork.NHibernateConfiguration;
+using MultiThreadedUnitOfWork.RequestStates;
+using MultiThreadedUnitOfWork.UnitOfWorkAndRepositories;
 using NHibernate;
 using NUnit.Framework;
 
-namespace AsynchronousSessionManagement.Tests
+namespace MultiThreadedUnitOfWork.Tests
 {
     [SetUpFixture]
     public class SetUpFixture

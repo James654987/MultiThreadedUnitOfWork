@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using AsynchronousSessionManagement.Models;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
+using MultiThreadedUnitOfWork.Models;
 using NHibernate;
 
-namespace AsynchronousSessionManagement.NHibernateConfiguration
+namespace MultiThreadedUnitOfWork.NHibernateConfiguration
 {
     public static class NHibernateSessionFactory
     {

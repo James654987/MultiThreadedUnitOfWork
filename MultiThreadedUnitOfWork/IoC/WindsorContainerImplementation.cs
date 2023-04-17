@@ -1,6 +1,6 @@
 ﻿using Castle.Windsor;
 
-namespace AsynchronousSessionManagement.IoC
+namespace MultiThreadedUnitOfWork.IoC
 {
     public class WindsorContainerImplementation : IContainer
     {

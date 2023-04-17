@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using AsynchronousSessionManagement.Models;
-using AsynchronousSessionManagement.UnitOfWorkAndRepositories;
 using MediatR;
+using MultiThreadedUnitOfWork.Models;
+using MultiThreadedUnitOfWork.UnitOfWorkAndRepositories;
 
-namespace AsynchronousSessionManagement.RequestsAndHandlers.Single_Threaded
+namespace MultiThreadedUnitOfWork.RequestsAndHandlers.Single_Threaded
 {
     public class GetUserNameByIdRequestHanlerSingleThreaded : IRequestHandler<GetUserNameByIdRequestSingleThreaded, GetUserNameByIdResponseSingleThreaded>
     {

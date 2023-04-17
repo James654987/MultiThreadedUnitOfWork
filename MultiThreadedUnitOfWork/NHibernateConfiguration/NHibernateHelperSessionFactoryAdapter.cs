@@ -8,7 +8,7 @@ using NHibernate.Engine;
 using NHibernate.Metadata;
 using NHibernate.Stat;
 
-namespace AsynchronousSessionManagement.NHibernateConfiguration
+namespace MultiThreadedUnitOfWork.NHibernateConfiguration
 {
     public sealed class NHibernateHelperSessionFactoryAdapter : ISessionFactory
     {

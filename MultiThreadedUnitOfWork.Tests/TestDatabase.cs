@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.IO;
-using AsynchronousSessionManagement.Migrations;
 using FluentMigrator.Runner;
 using FluentMigrator.Runner.Announcers;
 using FluentMigrator.Runner.Initialization;
+using MultiThreadedUnitOfWork.Migrations;
 
-namespace AsynchronousSessionManagement.Tests
+namespace MultiThreadedUnitOfWork.Tests
 {
     public static class TestDatabase
     {

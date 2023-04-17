@@ -1,7 +1,7 @@
-using AsynchronousSessionManagement.Models;
 using FluentNHibernate.Mapping;
+using MultiThreadedUnitOfWork.Models;
 
-namespace AsynchronousSessionManagement.Mappers
+namespace MultiThreadedUnitOfWork.Mappers
 {
     public class AuditMap : ClassMap<Audit>
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using NHibernate;
 
-namespace AsynchronousSessionManagement.NHibernateConfiguration
+namespace MultiThreadedUnitOfWork.NHibernateConfiguration
 {
     public static class NHibernateHelper
     {

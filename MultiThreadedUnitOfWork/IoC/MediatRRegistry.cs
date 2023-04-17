@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using AsynchronousSessionManagement.RequestsAndHandlers.Multi_Threaded;
 using Castle.MicroKernel;
 using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.Resolvers.SpecializedResolvers;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using MediatR;
+using MultiThreadedUnitOfWork.RequestsAndHandlers.Multi_Threaded;
 
-namespace AsynchronousSessionManagement.IoC
+namespace MultiThreadedUnitOfWork.IoC
 {
     public class MediatRRegistry : IWindsorInstaller
     {

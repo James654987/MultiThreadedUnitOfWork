@@ -8,7 +8,7 @@
     <ProjectGuid>{423F7833-66BD-46E2-8CF6-33C8A8B98F22}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AsynchronousSessionManagement.Tests</RootNamespace>
+    <RootNamespace>MultiThreadedUnitOfWork.Tests</RootNamespace>
     <AssemblyName>MultiThreadedUnitOfWork.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

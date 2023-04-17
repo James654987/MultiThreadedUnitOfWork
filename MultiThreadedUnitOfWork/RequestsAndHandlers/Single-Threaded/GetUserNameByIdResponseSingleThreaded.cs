@@ -1,4 +1,4 @@
-﻿namespace AsynchronousSessionManagement.RequestsAndHandlers.Single_Threaded
+﻿namespace MultiThreadedUnitOfWork.RequestsAndHandlers.Single_Threaded
 {
     public class GetUserNameByIdResponseSingleThreaded
     {

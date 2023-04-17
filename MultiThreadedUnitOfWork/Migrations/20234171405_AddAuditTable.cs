@@ -1,6 +1,6 @@
 using FluentMigrator;
 
-namespace AsynchronousSessionManagement.Migrations
+namespace MultiThreadedUnitOfWork.Migrations
 {
     [Migration(20234171405)]
     public class _20234171405_AddAuditTable : Migration

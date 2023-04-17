@@ -1,4 +1,4 @@
-﻿namespace AsynchronousSessionManagement.IoC
+﻿namespace MultiThreadedUnitOfWork.IoC
 {
     public interface IContainer
     {

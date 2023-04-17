@@ -1,7 +1,7 @@
 ﻿using System;
 using NHibernate;
 
-namespace AsynchronousSessionManagement.UnitOfWorkAndRepositories
+namespace MultiThreadedUnitOfWork.UnitOfWorkAndRepositories
 {
     public interface IUnitOfWork : IDisposable
     {

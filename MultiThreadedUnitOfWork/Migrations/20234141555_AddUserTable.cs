@@ -1,6 +1,6 @@
 ﻿using FluentMigrator;
 
-namespace AsynchronousSessionManagement.Migrations
+namespace MultiThreadedUnitOfWork.Migrations
 {
     [Migration(20234141555)]
     public class _20234141555_AddUserTable : Migration

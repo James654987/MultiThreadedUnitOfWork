@@ -1,4 +1,4 @@
-﻿namespace AsynchronousSessionManagement.RequestStates
+﻿namespace MultiThreadedUnitOfWork.RequestStates
 {
     public interface IRequestState
     {

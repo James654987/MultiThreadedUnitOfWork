@@ -2,7 +2,7 @@
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 
-namespace AsynchronousSessionManagement.IoC
+namespace MultiThreadedUnitOfWork.IoC
 {
     public sealed class DefaultTransientWindsorContainer : WindsorContainer
     {

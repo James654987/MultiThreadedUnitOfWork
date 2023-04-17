@@ -1,7 +1,7 @@
-﻿using AsynchronousSessionManagement.IoC;
-using AsynchronousSessionManagement.RequestStates;
+﻿using MultiThreadedUnitOfWork.IoC;
+using MultiThreadedUnitOfWork.RequestStates;
 
-namespace AsynchronousSessionManagement.UnitOfWorkAndRepositories
+namespace MultiThreadedUnitOfWork.UnitOfWorkAndRepositories
 {
     public static class UnitOfWork
     {

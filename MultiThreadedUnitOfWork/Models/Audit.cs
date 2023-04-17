@@ -1,6 +1,6 @@
 using System;
 
-namespace AsynchronousSessionManagement.Models
+namespace MultiThreadedUnitOfWork.Models
 {
     public class Audit
     {

@@ -1,10 +1,10 @@
 ﻿using System.Transactions;
-using AsynchronousSessionManagement.IoC;
-using AsynchronousSessionManagement.RequestStates;
+using MultiThreadedUnitOfWork.IoC;
+using MultiThreadedUnitOfWork.RequestStates;
 using NHibernate;
 using IsolationLevel = System.Data.IsolationLevel;
 
-namespace AsynchronousSessionManagement.UnitOfWorkAndRepositories
+namespace MultiThreadedUnitOfWork.UnitOfWorkAndRepositories
 {
     public sealed class UnitOfWorkWithNHibernateTransaction : IUnitOfWork
     {

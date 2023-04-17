@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AsynchronousSessionManagement.RequestStates
+namespace MultiThreadedUnitOfWork.RequestStates
 {
     public class PerThreadRequestState : IRequestState
     {

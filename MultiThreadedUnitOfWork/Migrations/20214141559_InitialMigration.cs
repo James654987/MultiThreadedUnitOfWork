@@ -1,6 +1,6 @@
 ﻿using FluentMigrator;
 
-namespace AsynchronousSessionManagement.Migrations
+namespace MultiThreadedUnitOfWork.Migrations
 {
     [Migration(20214141559)]
     public class _20214141559_InitialMigration : Migration

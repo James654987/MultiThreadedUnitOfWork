@@ -1,7 +1,7 @@
-﻿using AsynchronousSessionManagement.NHibernateConfiguration;
+﻿using MultiThreadedUnitOfWork.NHibernateConfiguration;
 using NHibernate;
 
-namespace AsynchronousSessionManagement.UnitOfWorkAndRepositories
+namespace MultiThreadedUnitOfWork.UnitOfWorkAndRepositories
 {
     public class NHibernateRepository : IRepository
     {

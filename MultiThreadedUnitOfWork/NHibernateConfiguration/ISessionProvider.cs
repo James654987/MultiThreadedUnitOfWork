@@ -1,6 +1,6 @@
 ﻿using NHibernate;
 
-namespace AsynchronousSessionManagement.NHibernateConfiguration
+namespace MultiThreadedUnitOfWork.NHibernateConfiguration
 {
     public interface ISessionProvider
     {

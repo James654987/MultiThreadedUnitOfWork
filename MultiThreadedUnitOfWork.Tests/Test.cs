@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
-using AsynchronousSessionManagement.IoC;
-using AsynchronousSessionManagement.Models;
-using AsynchronousSessionManagement.RequestsAndHandlers.Multi_Threaded;
-using AsynchronousSessionManagement.RequestsAndHandlers.Single_Threaded;
-using AsynchronousSessionManagement.UnitOfWorkAndRepositories;
 using MediatR;
+using MultiThreadedUnitOfWork.IoC;
+using MultiThreadedUnitOfWork.Models;
+using MultiThreadedUnitOfWork.RequestsAndHandlers.Multi_Threaded;
+using MultiThreadedUnitOfWork.RequestsAndHandlers.Single_Threaded;
+using MultiThreadedUnitOfWork.UnitOfWorkAndRepositories;
 using NUnit.Framework;
 
-namespace AsynchronousSessionManagement.Tests
+namespace MultiThreadedUnitOfWork.Tests
 {
     [TestFixture]
     public class Test

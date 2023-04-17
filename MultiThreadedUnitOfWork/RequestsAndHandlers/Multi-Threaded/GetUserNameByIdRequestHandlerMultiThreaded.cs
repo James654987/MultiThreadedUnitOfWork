@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using AsynchronousSessionManagement.Models;
-using AsynchronousSessionManagement.UnitOfWorkAndRepositories;
 using MediatR;
+using MultiThreadedUnitOfWork.Models;
+using MultiThreadedUnitOfWork.UnitOfWorkAndRepositories;
 
-namespace AsynchronousSessionManagement.RequestsAndHandlers.Multi_Threaded
+namespace MultiThreadedUnitOfWork.RequestsAndHandlers.Multi_Threaded
 {
     public class GetUserNameByIdRequestHandlerMultiThreaded : IRequestHandler<GetUserNameByIdRequestMultiThreaded, GetUserNameByIdResponseMultiThreaded>
     {

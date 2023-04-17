@@ -1,4 +1,4 @@
-﻿namespace AsynchronousSessionManagement.Models
+﻿namespace MultiThreadedUnitOfWork.Models
 {
     public class User
     {
